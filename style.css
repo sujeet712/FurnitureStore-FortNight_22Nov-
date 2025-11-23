@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    margin: 0px;
+}
+.navbar{
+    background-color: #87ceeb;
+    display: flex;
+}
+.line{
+    margin: 30px;
+
+    font-weight: bold;
+}
+.c{
+    display: none;
+}
+.hn{
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "Roboto";
+}
+.card1{
+    background-image: url('https://images.cdn-files-a.com/ready_uploads/media/95146/2000_5ce7cae4d66bb.jpg');
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding-top: 200px;
+}
+.h1{
+    color: #ffffff;
+    font-size: 45px;
+    font-family: "Roboto";
+    margin: 20px;
+}
+.p1{
+        color: #000000;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin: 20px;
+}
+.hr{
+   margin-left: 120px;
+   margin-right: 120px;
+   font-size: 15px;
+   height: 5px;
+   background-color: #87ceeb;
+}
+.card2{
+    text-align: center;
+    margin: 20px;
+}
+.h2{
+     color: #000000;
+    font-size: 25px;
+    font-family: "Roboto";
+    margin: 20px;
+}
+.a{
+    text-align: center;
+}
+.b{
+    text-align: center;
+}
+.i3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.h3{
+    color: #000000;
+    font-size: 25px;
+    font-family: "Roboto";
+    margin: 20px; 
+}
+.p3{
+     color: grey;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin: 20px;
+}
+
+.card4{
+    text-align: center;
+    background-color: #1b262c;
+    height: 300px;
+    padding-top: 100px;
+}
+.x{
+    display: flex;
+    margin-left: 100px;
+   
+}
+.h4{
+     padding: 10px;
+     font-size: 20px;
+     color: white;
+}
+.h41{
+     padding: 10px;
+     font-size: 35px;
+     color: white;
+}
+.h42{
+     padding: 10px;
+     font-size: 15px;
+     color: white;
+}
+@media screen and (min-width:768px){
+    .a{
+        display: flex;
+    }
+    .card4{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .y{
+        order:-1;
+    }
+    .line{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .c{
+        display: flex;
+        order: -1;
+        font-size: 10px;
+        margin: 15px;
+    }
+}
